@@ -1,25 +1,25 @@
 class Lazycloud < Formula
   desc "A terminal UI for various cloud provider CLIs"
   homepage "https://github.com/jorgeparavicini/lazycloud"
-  version "0.1.5"
+  version "0.1.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jorgeparavicini/lazycloud/releases/download/v0.1.5/lazycloud-aarch64-apple-darwin.tar.gz"
-      sha256 "a132673033a47c545e2abc43411ccea39899aafd402bb0581beb5380936a5033"
+      url "https://github.com/jorgeparavicini/lazycloud/releases/download/v0.1.6/lazycloud-aarch64-apple-darwin.tar.gz"
+      sha256 "a77f441725744be75637d060122850cc1f3b1f5139ce3579880f1a7ef24f40c9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jorgeparavicini/lazycloud/releases/download/v0.1.5/lazycloud-x86_64-apple-darwin.tar.gz"
-      sha256 "77e032908800db64a2be8b3c9bd55c65146ed6830b6a6af4243d4656eee685de"
+      url "https://github.com/jorgeparavicini/lazycloud/releases/download/v0.1.6/lazycloud-x86_64-apple-darwin.tar.gz"
+      sha256 "040e70794124010dbc67c8c622f4d1a518827b851574e2e8172b35d58b27d1b6"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jorgeparavicini/lazycloud/releases/download/v0.1.5/lazycloud-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "79f8b5013897113ac1c1ade6a054449be43568736ddef79b3cd3df948b0c542a"
+      url "https://github.com/jorgeparavicini/lazycloud/releases/download/v0.1.6/lazycloud-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "171c21c2e543fd9876346a4074d81df0dce8d77785acabad535d47bde8329b55"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jorgeparavicini/lazycloud/releases/download/v0.1.5/lazycloud-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4a899e9c77c0f82f156751068d2f503e6f5c017e186da375762142bd3067c430"
+      url "https://github.com/jorgeparavicini/lazycloud/releases/download/v0.1.6/lazycloud-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "857dbc014401a164269c6b8b576156e434ade345b5f941f1ef202c2f48c7f510"
     end
   end
   license "MIT"
